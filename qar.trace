@@ -1,0 +1,48 @@
+Supplied arguments
+qar
+QACPP
+-via
+C:\Program Files (x86)\PRQA\QACPP-3.1-R\temp\settings.via
+-list
+C:\Program Files (x86)\PRQA\QACPP-3.1-R\temp\filelist.lst
+-po
+qar::report_type=Code Review Report
+-po
+qar::project_name=jenkins_essai_job_testscpp
+-po
+qar::logo_file=file:///C:\Program Files\PRQA\QAR-2.1.1-x64\bin\prqa_logo.png
+--------------------------------------------
+EXECUTING:
+C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\prdf\bin\standard.prdf.generator QACPP -via "C:\Program Files (x86)\PRQA\QACPP-3.1-R\temp\settings.via" -list "C:\Program Files (x86)\PRQA\QACPP-3.1-R\temp\filelist.lst" -po "qar::report_type=Code Review Report"
+EXECUTING:
+C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\Xalan\bin\Xalan -p op "'C:/Users/T0166941/Desktop/output/'" -p title "''" -p project_name "'jenkins_essai_job_testscpp'" -p date "'13 January 2016'" -p no_version false() -p no_appendix false() -o "C:\Users\T0166941\Desktop\output\Code Review Report.xml" "C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\standard_reports\Code Review Report.template.xml" "C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\prdf\transforms\template_xml.xsl"
+EXECUTING:
+C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\Xalan\bin\Xalan -o "C:\Users\T0166941\Desktop\output\Code Review Report.xhtml" -p logo_file "'file:///C:\Program Files\PRQA\QAR-2.1.1-x64\bin\prqa_logo.png'" "C:\Users\T0166941\Desktop\output\Code Review Report.xml" "C:\Program Files\PRQA\QAR-2.1.1-x64\bin\..\prdf\transforms\prdf2xhtml.xsl"
+OPENING:
+<C:\Users\T0166941\Desktop\output\Code Review Report.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092D4B8-1 - main.cpp.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092D4B8-2 - jenkins_essai_job_testscpp.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092D4B8.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DA88.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DAB8-1 - main.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DAB8.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DE18.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DED8.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DF38.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DF98.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-N008F04B0N0092DDE8.xhtml
+OPENING:
+>C:\Users\T0166941\Desktop\output\Code Review Report-Main.xhtml
+EXECUTING:
+start "C:\PROGRA~2\MOZILL~1\firefox.exe" "C:\Users\T0166941\Desktop\output\Code Review Report-Main.xhtml"
